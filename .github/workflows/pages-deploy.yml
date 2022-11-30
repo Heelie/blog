@@ -10,16 +10,17 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
+          submodules: false  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.106.0"
-          # extended: true
+          extended: true
 
       - name: Build
         run: hugo
@@ -32,3 +33,11 @@ jobs:
           external_repository: heelie/heelie.github.io
           publish_dir: ./public
           publish_branch: main
+
+      - name: Upload Records
+        uses: iChochy/Algolia-Upload-Records@main
+        env:
+          APPLICATION_ID: ${{secrets.ALGOLIA_APPLICATION_ID}}
+          ADMIN_API_KEY: ${{secrets.ALGOLIA_ADMIN_API_KEY}}
+          INDEX_NAME: ${{secrets.ALGOLIA_INDEX_NAME}}
+          FILE_PATH: ./public/index.json
