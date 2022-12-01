@@ -1,0 +1,12 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "author": "heelie",
+  "email": "heelie.hj@gmail.com",
+  "description": "Just to simplify the hugo command",
+  "scripts": {
+    "dev": "hugo server --environment development",
+    "prod": "hugo server --environment production",
+    "build": "hugo -v --gc --minify"
+  }
+}

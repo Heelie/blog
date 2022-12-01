@@ -53,13 +53,23 @@ preserveTaxonomyNames = true
     [menu.main.params]
       icon = "fa-solid fa-tags"
   [[menu.main]]
+    identifier = "favorites"
+    pre = ""
+    post = ""
+    name = "收藏"
+    url = "/favorites/"
+    title = ""
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-book-bookmark"
+  [[menu.main]]
     identifier = "friends"
     pre = ""
     post = ""
     name = "友链"
     url = "/friends/"
     title = "友情链接"
-    weight = 4
+    weight = 5
     [menu.main.params]
       icon = "fa-solid fa-users"
   [[menu.main]]
@@ -69,7 +79,7 @@ preserveTaxonomyNames = true
     name = "关于我"
     url = "/about/"
     title = ""
-    weight = 5
+    weight = 6
     [menu.main.params]
       icon = "fa-solid fa-person"
 
@@ -151,7 +161,7 @@ preserveTaxonomyNames = true
     # FixIt 0.2.0 | NEW Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/img/favicon.png"
+      logo = "/favicon.png"
       # title name
       name = "Jay's"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -231,7 +241,7 @@ preserveTaxonomyNames = true
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/img/favicon.png"
+      avatarURL = "/favicon.png"
       # FixIt 0.2.17 | NEW identifier of avatar menu link
       avatarMenu = ""
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)

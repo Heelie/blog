@@ -17,7 +17,7 @@ comment: true
 
 ```yaml
 - nickname: Jay
-  avatar: "/img/favicon.png"
+  avatar: "/favicon.png"
   url: "https://heelie.github.io"
   description: 对朋友或其站点的说明
 ```
