@@ -14,7 +14,7 @@ weight: 0
 
 tags:
 
-- chitchat
+- 闲聊杂谈
 
 categories:
 

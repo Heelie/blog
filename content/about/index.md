@@ -19,6 +19,8 @@ date: 2022-11-28T17:25:46+08:00
 
 自学golang的过程中给[`go-kratos`](https://github.com/go-kratos/kratos)提交过一个小的pr
 
+博客主要是用来记录一下自己的学习过程
+
 没什么远大志向吧，生活嘛，向前看
 
 <br/>

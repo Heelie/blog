@@ -1,5 +1,5 @@
 ---
-title: "记录搭建博客的详细步骤"
+title: "Hugo博客部署详细过程"
 subtitle: ""
 date: 2022-12-01T13:03:19+08:00
 draft: false
@@ -15,9 +15,10 @@ pageStyle: "normal"
 
 tags:
 - chitchat
+- hugo
 
 categories:
-- chitchat
+- 闲聊杂谈
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
