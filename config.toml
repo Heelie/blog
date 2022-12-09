@@ -371,7 +371,7 @@ preserveTaxonomyNames = true
     # FixIt 0.2.4 | NEW whether to show the full text content in RSS
     rssFullText = false
     # FixIt 0.2.13 | NEW Page style ["narrow", "normal", "wide", ...]
-    pageStyle = "narrow"
+    pageStyle = "normal"
     # FixIt 0.2.14 | NEW Gravatar is force-used as the author's avatar
     gravatarForce = false
     # FixIt 0.2.17 | CHANGED Auto Bookmark Support

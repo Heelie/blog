@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2022-11-28T17:25:46+08:00
+pageStyle: "narrow"
 ---
 
 [//]: # (![Top Langs]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=Heelie&layout=compact&#41;)
