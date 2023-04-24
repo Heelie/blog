@@ -52,16 +52,16 @@ preserveTaxonomyNames = true
     weight = 3
     [menu.main.params]
       icon = "fa-solid fa-tags"
-  [[menu.main]]
-    identifier = "favorites"
-    pre = ""
-    post = ""
-    name = "收藏"
-    url = "/favorites/"
-    title = ""
-    weight = 4
-    [menu.main.params]
-      icon = "fa-solid fa-book-bookmark"
+#  [[menu.main]]
+#    identifier = "favorites"
+#    pre = ""
+#    post = ""
+#    name = "收藏"
+#    url = "/favorites/"
+#    title = ""
+#    weight = 4
+#    [menu.main.params]
+#      icon = "fa-solid fa-book-bookmark"
   [[menu.main]]
     identifier = "friends"
     pre = ""
